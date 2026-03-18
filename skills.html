@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Skills</title>
+
+<style>
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0;
+background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+/* Container */
+
+.container{
+width:80%;
+margin:auto;
+margin-top:60px;
+}
+
+h1{
+text-align:center;
+color:white;
+margin-bottom:40px;
+}
+
+/* Grid Layout */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+/* Skill Cards */
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card h2{
+color:#764ba2;
+margin-bottom:15px;
+}
+
+.card ul{
+padding-left:20px;
+line-height:1.8;
+font-size:18px;
+}
+
+/* Back Button */
+
+.back{
+display:block;
+text-align:center;
+margin-top:40px;
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>My Skills</h1>
+
+<div class="skills">
+
+<div class="card">
+<h2>Programming Languages</h2>
+<ul>
+<li>Java,OOPS</li>
+<li>Python</li>
+<li>Problem Solving</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Web Development</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+</div>
+
+
+
+<div class="card">
+<h2>Tools & Technologies</h2>
+<ul>
+<li>VS Code</li>
+<li>Git & GitHub</li>
+<li>MATLAB</li>
+<li>Java IDE</li>
+</ul>
+</div>
+
+</div>
+
+<a href="index.html" class="back">⬅ Back to Home</a>
+
+</div>
+
+</body>
+</html>

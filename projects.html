@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Projects</title>
+
+<style>
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#43cea2,#185a9d);
+margin:0;
+}
+
+.container{
+width:80%;
+margin:auto;
+margin-top:60px;
+}
+
+h1{
+text-align:center;
+color:white;
+margin-bottom:40px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card h2{
+color:#185a9d;
+}
+
+.card p{
+color:#444;
+line-height:1.5;
+}
+
+.tech{
+margin-top:10px;
+font-size:14px;
+color:#777;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:8px 18px;
+background:#43cea2;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.btn:hover{
+background:#2fb68c;
+}
+
+.back{
+display:block;
+text-align:center;
+margin-top:40px;
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>My Projects</h1>
+
+<div class="projects">
+
+
+<div class="card">
+<h2>Solar Tracker</h2>
+<p>An Arduino-based system that automatically rotates a solar panel toward the direction of maximum sunlight.</p>
+<div class="tech">Technology: Arduino, LDR Sensors</div>
+<a href="c:\Users\LENOVO\Downloads\Solar Tracker.pdf" class="btn">View Project</a>
+</div>
+
+<div class="card">
+<h2>AI Chatbot</h2>
+<p>A chatbot that responds to user questions using simple AI logic.</p>
+<div class="tech">Technology: Python</div>
+<a href="c:\Users\LENOVO\Downloads\AI ChatBot-.pdf" class="btn">View Project</a>
+</div>
+
+
+
+</div>
+
+<a href="index.html" class="back">⬅ Back to Home</a>
+
+</div>
+
+</body>
+</html>
